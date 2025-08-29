@@ -1,0 +1,3 @@
+﻿Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age,Prediction,Risk Probability (%)
+6,148,72,35,0,33.6,0.627,50,Diabetes,97.998474
+1,85,66,29,0,26.6,0.351,31,No Diabetes,0.09308786
