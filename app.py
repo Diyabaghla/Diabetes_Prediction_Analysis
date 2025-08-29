@@ -6,6 +6,7 @@ import pickle
 import matplotlib.pyplot as plt
 from io import StringIO
 from datetime import datetime
+import xgboost as xgb 
 
 model_path = os.path.join(os.path.dirname(__file__), "model.pkl")
 # -------------------------
