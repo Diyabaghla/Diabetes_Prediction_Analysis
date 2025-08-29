@@ -6,10 +6,11 @@ import matplotlib.pyplot as plt
 from io import StringIO
 from datetime import datetime
 
+model_path = os.path.join(os.path.dirname(__file__), "model.pkl")
 # -------------------------
 # Load trained model
 # -------------------------
-with open("model.pkl", "rb") as f:
+with open(model_path, "rb") as f:
     model = pickle.load(f)
 
 st.set_page_config(page_title="Patient Health Risk Prediction", layout="wide")
